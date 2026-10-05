@@ -1,0 +1,7 @@
+Order Response: {
+  orders: [ '6ac01ab72be7a4bc2b848766' ],
+  productOrderId: [ '6960eac0c941646b7a8b3e68' ],
+  message: 'Order Placed Successfully'
+}
+6ac01ab72be7a4bc2b848766
+6ac01ab72be7a4bc2b848766
