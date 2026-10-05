@@ -21,3 +21,5 @@ test("@Web Security test request intercept", async({page})=>{
     await page.getByRole('button', { name: 'View' }).first().click();
     await expect(page.getByText('You are not authorize to view')).toBeVisible();
 })
+
+//Other network test
