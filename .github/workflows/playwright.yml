@@ -20,7 +20,7 @@ jobs:
     - name: Azure login
       uses: azure/login@v3
       with:
-        client-id: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
     - name: Run Playwright tests with Azure Workflows
       env:
         PLAYWRIGHT_SERVICE_URL: ${{vars.PLAYWRIGHT_SERVICE_URL}}
